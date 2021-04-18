@@ -1,0 +1,91 @@
+.task1, .task2, .task3, .task4, .task5, .task6 {
+
+    background-color: rgb(240, 232, 128);
+    /* margin: 20px; */
+    /* height: 200px; */
+}
+
+.task1, .task2, .task3{
+    text-align: center;
+}
+
+.task1 button {
+    margin: 5px;
+}
+
+.task2 {
+    height: 70vh;
+    width: 100vw;
+}
+
+.task3 p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.task4 {
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: wheat;
+}
+.task4 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 15%;
+    background-color: rgb(73, 73, 255);
+    color: white;
+}
+
+.task4 ul li:hover {
+    background-color: rgb(17, 17, 255);
+}
+
+.task4 .assignment article {
+    position: relative;
+    width: 70%;
+    display: none;
+    top: -80px;
+    left: 20%;
+}
+
+.task5 .news {
+    border: 1px solid black;
+    position: relative;
+}
+
+.task5 button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.task6 {
+    position: relative;
+    height: 120px;
+}
+
+.task6 progress{
+    position: absolute;
+    left: 40%;
+}
+
+.task6 button {
+    position: absolute;
+    left: 40%;
+    height: 20px;
+    width: 160px;
+    top: 70px;
+}
